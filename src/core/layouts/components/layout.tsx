@@ -6,25 +6,16 @@ import { SiBluesky } from 'react-icons/si';
 
 const footerLinks = [
   {
-    href: 'https://github.com/onderonur',
+    href: 'https://github.com/garikapatisagar',
     ariaLabel: 'GitHub',
     icon: AiOutlineGithub,
   },
   {
-    href: 'https://linkedin.com/in/onderonur/',
+    href: 'https://www.linkedin.com/in/vidya-sagar-garikapati-304856264/',
     ariaLabel: 'LinkedIn',
     icon: AiOutlineLinkedin,
   },
-  {
-    href: 'https://bsky.app/profile/onderonur.bsky.social',
-    ariaLabel: 'Bluesky',
-    icon: SiBluesky,
-  },
-  {
-    href: 'https://x.com/onderonur_',
-    ariaLabel: 'X',
-    icon: AiOutlineX,
-  },
+ 
 ];
 
 type LayoutProps = {
@@ -40,7 +31,7 @@ export function Layout({ children }: LayoutProps) {
         </NextLink>
         <div className="grow" />
         <ExternalLink
-          href="https://github.com/onderonur"
+          href="https://github.com/garikapatisagar"
           aria-label="Check the source code on GitHub"
         >
           <AiOutlineGithub className="size-8" />
